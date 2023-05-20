@@ -3,10 +3,12 @@ import About from "@components/About";
 import Services from "@components/Services";
 import Faq from "@components/FAQ";
 import Contact from "@components/Contact";
+import Nav from "@components/Nav";
+import Footer from "@components/Footer";
 const Home = () => {
   return (
     <>
-    
+      <Nav/>
     <section className='w-full flex-center flex-col md:mt-[100px]  md:mb-[100px] py-5'>
     <h1 className='head_text text-center'>
       Welcome to
@@ -25,6 +27,7 @@ const Home = () => {
     <About />
     <Faq/>
     <Contact />
+    <Footer/>
   </>
 );
 }

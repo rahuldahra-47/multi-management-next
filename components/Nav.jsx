@@ -1,11 +1,9 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
-import { signIn, signOut, useSession, getProviders } from "next-auth/react";
+
 import { Disclosure } from "@headlessui/react";
-import Services from "./Services";
-import Features from "./Features";
+
 export default function Nav() {
  
   return (
